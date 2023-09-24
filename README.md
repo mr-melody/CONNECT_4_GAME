@@ -1,18 +1,15 @@
-# Connect-4-Reinforcement-learning
+# Connect_4_GAME
 
-# Background and Motivation:
+# Problem Statement
+### Title - Reinforcement Learning for Connect 4 in a Line Game Bot Training
+
+Developing an intelligent game-playing bot for the Connect 4 in a Line game using Reinforcement Learning (RL) presents a challenging task. The objective is to design and train an RL agent capable of making optimal moves in Connect 4, a classic two-player board game. The bot should learn to play strategically, making decisions to win or prevent the opponent from winning, ultimately achieving a high level of gameplay proficiency.
+
+
+# Game Rules:
 Connect Four is a two players game which takes place on a 7x6 rectangular board placed vertically between them. One player has 21 blue coins and the other 21 red coins. Each player can drop a coin at the top of the board in one of the seven columns; the coin falls down and fills the lower unoccupied square. Of course a player cannot drop a coin in a certain column if it's already full (i.e. it already contains six coins). 
 Even if there's no rule about who begins first, we assume, as in chess, that the lighter side makes the first move. We also use the chess notation to represent a square on the board. That is, we number rows from 1 to 7 starting from the bottom and the columns from 1 to 6 starting from the leftmost.
-# Problem statement
-   The rules of the game are as follows:
-   Every player tries to connect their coin type in a sequence of 4.
-     After every move by any player, the status of the game is checked whether it is over. 
-     A  game is considered over in the following scenarios:
-  Either of the players have 4 coins on the board in a sequence vertically, horizontally or   diagonally
-The board is full that is after 42 moves none of the players got a sequence of 4. In this case the game is a tie.
-Using the above rules, the problem statement is to develop an AI using Reinforcement Learning and train it to play with human players and try to maximize the number of wins by the AI.
-# Purpose/Motivation
-The purpose/ motivation of this project is mainly to identify and understand the difference in implementation and results of Connect 4 using AlphaGo, Monte Carlo Tree Search, Q Learning and DQN.
+
 # Differentiator/Contribution (what is different about your project from what is currently available in the literature)
 Connect 4 has already been implemented using AlphaGo and Monte Carlo Tree Search. We implemented the game using QLearning and DQN.
 # Methodology
