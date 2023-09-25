@@ -1,6 +1,7 @@
 import pygame
 import random
 import argparse
+import Board
 
 
 # define some global variables
