@@ -1,6 +1,7 @@
 import pygame
 import random
 import argparse
+from GameView import GameView
 
 # define some global variables
 BLUE = (0, 0, 255)
